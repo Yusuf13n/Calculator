@@ -1,3 +1,6 @@
+const body = document.querySelector('body');
+body.className = 'light-theme'
+
 document.getElementById('themeToggle').addEventListener('click', function mode() {
 
     const currentTheme = document.body.className;
