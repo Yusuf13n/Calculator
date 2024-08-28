@@ -1,0 +1,29 @@
+body.light-theme {
+    background: linear-gradient(90deg, #de95a1, #f6edb2);
+    color: #000000;
+}
+
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e18969;
+    button{
+        color: rgb(209, 206, 206);
+    }
+    .calculator{
+        box-shadow: 0 0 15px rgba(49, 49, 49, 0.5), 0 0 10px rgba(255,255,255,.5);
+        background-color: #000000;
+    }
+    .display{
+        color: rgb(195, 192, 192);
+    }
+    #themeToggle{
+        background-color: #e18969;
+    }
+    h1{
+        color: #b9b9b9;
+        text-shadow: 0 0 15px rgba(49, 49, 49, 0.5), 0 0 10px rgba(255,255,255,.5);
+    }
+}
+
+
